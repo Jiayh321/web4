@@ -616,8 +616,8 @@
       loveButton.addEventListener("click", () => {
         playHeartsAndDialog();
 
-        // 同时进行跳转：使用新标签，保留原页面 5s 内动画
-        window.open(TARGET_URL, "_blank");
+         // 在当前页面直接跳转到目标网址
+         window.location.href = TARGET_URL;
       });
     </script>
   </body>
